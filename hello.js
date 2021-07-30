@@ -32,3 +32,32 @@ console.log(is, it)
  var add =(plas1+plas2)
  console.log(add)
 
+
+ var atik = 50;
+ var asib = 70;
+asib =(asib+5);
+ console.log(atik+asib);
+
+ var name1 = "asibur";
+ var name2 ="rahman";
+add = (name1+" "+name2)
+ console.log(add.toUpperCase());
+
+ var appeleprice =12000;
+ var mangoAsay = true;
+ 
+ if(appeleprice <1500 && mangoAsay == true){
+     console.log("i well eat this food")
+ }
+ else if(appeleprice <1500 || mangoAsay == true){
+     console.log("daki ki kora jay")
+ }
+ else{
+     console.log("i am not interest of this food")
+ }
+
+
+
+
+
+ 
