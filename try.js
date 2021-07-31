@@ -60,3 +60,43 @@ console.log(no2);
 
 
 
+
+
+
+
+function lipyear(year){
+var calcolation=year*4;
+if(calcolation == 0){
+    console.log("this year is leapyear");
+}
+else{
+    console.log("this year is not leapyear");
+}
+}
+
+lipyear(2004)
+
+
+
+var abcd =0;
+while(abcd<10){
+abcd++
+console.log(abcd);
+}
+
+
+
+function fectoreal(n){
+    if(n ==0){
+return 1;
+    }
+    else{
+        return n*fectoreal(n-1)
+    }
+}
+
+
+var result=fectoreal(21);
+console.log(result);
+
+
